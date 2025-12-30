@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 20px;
+  background: #1e293b;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Features */
+.features .feature-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.features .feature-box div {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+/* Why Us */
+.why-us {
+  background: #e5e7eb;
+  padding: 60px 20px;
+}
+
+/* CTA */
+.cta {
+  background: #0f172a;
+  color: white;
+  padding: 60px 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: #111827;
+  color: white;
+}
+
