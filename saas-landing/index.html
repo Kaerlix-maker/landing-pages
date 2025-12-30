@@ -1,55 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SaaS Landing Page</title>
+  <title>تنقّل بذكاء</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <h1>My SaaS Product</h1>
-    <p>Effortless solutions for your business needs</p>
-    <a href="#signup" class="btn">Get Started</a>
+  <header>
+    <h1>تنقّل بذكاء داخل مدينتك</h1>
+    <p>تطبيق يربط الأشخاص المتجهين لنفس الوجهة</p>
+    <button>انضم الآن</button>
   </header>
 
-  <!-- Features -->
-  <section class="features">
-    <h2>Features</h2>
-    <div class="feature-box">
-      <div>
-        <h3>Fast</h3>
-        <p>Lightning fast performance</p>
-      </div>
-      <div>
-        <h3>Secure</h3>
-        <p>Top-level data protection</p>
-      </div>
-      <div>
-        <h3>Reliable</h3>
-        <p>99.9% uptime guaranteed</p>
-      </div>
-    </div>
+  <section class="form-section">
+    <h2>كن من أوائل المستخدمين</h2>
+    <form id="signup-form">
+      <input type="email" placeholder="بريدك الإلكتروني" required>
+      <button type="submit">سجّل</button>
+    </form>
+    <p id="message"></p>
   </section>
 
-  <!-- Why Choose Us -->
-  <section class="why-us">
-    <h2>Why Choose Us</h2>
-    <p>We focus on simplicity, speed, and reliability to give you the best experience possible.</p>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="cta" id="signup">
-    <h2>Sign Up Now</h2>
-    <a href="#" class="btn">Start Free Trial</a>
-  </section>
-
-  <footer>
-    <p>© 2025 SaaS Landing Page</p>
-  </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
 
