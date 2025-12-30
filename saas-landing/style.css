@@ -1,76 +1,74 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  text-align: center;
+}
+
+body {
+  background: #f9f9f9;
   color: #222;
+  text-align: center;
 }
 
-/* Hero */
-.hero {
+header {
   padding: 80px 20px;
-  background: #1e293b;
+  background: linear-gradient(135deg, #111, #333);
   color: white;
 }
 
-.hero h1 {
-  font-size: 36px;
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 
-.hero p {
-  font-size: 18px;
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 26px;
-  background: #3b82f6;
+header button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  background: #00c896;
   color: white;
-  text-decoration: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-/* Sections */
-section {
+.form-section {
   padding: 60px 20px;
 }
 
-h2 {
+.form-section h2 {
   margin-bottom: 20px;
 }
 
-/* Features */
-.features .feature-box {
+form {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
-.features .feature-box div {
-  background: #f3f4f6;
-  padding: 20px;
-  border-radius: 8px;
-  width: 200px;
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
-/* Why Us */
-.why-us {
-  background: #e5e7eb;
-  padding: 60px 20px;
-}
-
-/* CTA */
-.cta {
-  background: #0f172a;
+form button {
+  padding: 12px 25px;
+  border: none;
+  background: #111;
   color: white;
-  padding: 60px 20px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-/* Footer */
-footer {
-  padding: 20px;
-  background: #111827;
-  color: white;
+#message {
+  margin-top: 15px;
+  color: green;
 }
-
